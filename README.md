@@ -1,1 +1,2 @@
-# IceStreamOcean_Coupled for Octave, Scientific Programming Language
+# IceStreamOcean_Coupled in Octave, Scientific Programming Language
+Model for Synchronization of Heinrich and Dansgaard-Oeschger Events through Ice-Ocean Interactions in Octave, using numerical approach from [Mann et al 2021](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021PA004334) 
