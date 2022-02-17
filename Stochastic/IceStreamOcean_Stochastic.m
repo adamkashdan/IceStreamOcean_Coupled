@@ -169,9 +169,6 @@ T_DO=mean(time(phi_DO_all(2:end))-time(phi_DO_all(1:end-1)));
 T_H=mean(time(phi_H(2:end))-time(phi_H(1:end-1)));
 %dphi(dphi>T_DO/2)=dphi(dphi>T_DO/2)-T_DO;
 
-
-
-
 %% Plotting
 figure(3)
 subplot(2,1,1)
