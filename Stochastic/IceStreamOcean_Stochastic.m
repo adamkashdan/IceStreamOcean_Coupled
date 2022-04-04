@@ -23,7 +23,7 @@ p.mf=0;
 p.gamma=165/(3e5*yearCon); % Relaxation Time Parameter
 %% Initial Conditions and time step
 
-p.h_init=3000;          % Initial avg ice stream height (m)
+p.h_init=900;          % Initial avg ice stream height (m)
 p.e_init=0.6;           % Initial Void Ratio
 p.Zs_init=1;            % Initial Till Height (m)
 p.Tb_init=273.15;         % Initial Basal Temperature (K)
