@@ -16,7 +16,7 @@ p.mf=10/yearCon;       % Submarine Melt Rate (m/s)
 p.gamma=260/(3e5*yearCon); % Relaxation Time Parameter
 
 %% Initial Conditions and time step
-p.h_init=3000;          % Initial avg ice stream height (m)
+p.h_init=900;          % Initial avg ice stream height (m)
 p.e_init=0.6;           % Initial Void Ratio
 p.Zs_init=1;            % Initial Till Height (m)
 p.Tb_init=273.15;         % Initial Basal Temperature (K)
@@ -46,7 +46,7 @@ p.b = 21.7;     % Till empirical exponent (unitless)
 p.Ci= 1.94e6;   % Volumetric heat capacity of ice (J K-1 m-3)
 p.ec= 0.3;      % Till consolidation threshold (unitless)
 p.g = 9.81;     % Acceleration (s-2)
-p.hb= 10;       % Thickness of temperate ice layer (m)
+p.hb= 3;       % Thickness of temperate ice layer (m)
 p.ki= 2.1;      % Thermal conductivity of ice (J s-1 m-1 K-1)
 p.Lf= 3.35e5;   % Specific latent heat of ice (J kg-1)
 p.n = 3;        % Glen's law exponent (unitless)
